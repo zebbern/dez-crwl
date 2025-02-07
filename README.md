@@ -4,8 +4,8 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Make Globally Accessible](#make-globally-accessible)
-  - [Linux/macOS - Step 1: Clone Repo](#linuxmacos---step-1-clone-repo)
-  - [Windows - Step 1: Clone Repo](#windows---step-1-clone-repo)
+  - [Linux/macOS](#clone-repo)
+  - [Windows](#repos)
 
 ## Installation 
 ```
@@ -26,7 +26,7 @@ mv dezCrawl.py /usr/local/bin/dezCrawl
 dezCrawl -h
 ```
 ### 🪟 - Windows - 🪟
-**Step 1: Download or clone repo if u havent done it:**
+**Step 1: Download or clone repos if u havent done it:**
 ```
 git clone https://github.com/zebbern/dez-crwl.git
 ```
