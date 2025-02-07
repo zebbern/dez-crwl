@@ -3,9 +3,9 @@
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 ## Table of Contents
 - [Installation](#installation)
-- [Make Globally Accessible?](#make-globally-accessible)
-  - [Linux/macOS](#Step-2:-Run-these-commands:)
-  - [Windows](#windows)
+- [Make Globally Accessible](#make-globally-accessible)
+  - [Linux/macOS - Step 1: Clone Repo](#linuxmacos---step-1-clone-repo)
+  - [Windows - Step 1: Clone Repo](#windows---step-1-clone-repo)
 
 ## Installation 
 ```
