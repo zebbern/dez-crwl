@@ -1,3 +1,12 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+## Table of Contents
+- [Installation](#installation)
+- [Make Globally Accessible?](#make-globally-accessible)
+  - [Linux/macOS](#Step2)
+  - [Windows](#windows)
+
 ## Installation 
 ```
 pip install -r requirements.txt
