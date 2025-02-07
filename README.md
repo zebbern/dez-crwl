@@ -2,18 +2,22 @@
 ```
 pip install -r requirements.txt
 git clone https://github.com/zebbern/dez-crwl.git
+cd dez-crwl
 ```
 ## Make Globally Accessible?
 ### 🐧 - Linux/macOS - 🐧
+**Step 1: Download or clone repo if u havent done it:**
 ```
 git clone https://github.com/zebbern/dez-crwl.git
-cd dez-crwl
+```
+**Step 2: Run these commands:**
+```
 chmod +x dezCrawl.py
 mv dezCrawl.py /usr/local/bin/dezCrawl
 dezCrawl -h
 ```
 ### 🪟 - Windows - 🪟
-**Step 1: Download or clone repo:**
+**Step 1: Download or clone repo if u havent done it:**
 ```
 git clone https://github.com/zebbern/dez-crwl.git
 ```
