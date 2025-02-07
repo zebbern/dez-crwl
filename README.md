@@ -6,8 +6,12 @@ Description:
 dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.
 
 ## Table of Contents
+- [Features](#features)
 - [Installation](#installation)
 - [Make Globally Accessible](#make-globally-accessible)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Usage](#usage)
 
 Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
@@ -16,6 +20,43 @@ Features:
 - Detects sensitive information such as API keys and JWT tokens
 - Supports status code filtering
 - Generates detailed reports in TXT or JSON format
+
+## Installation 
+```
+pip install -r requirements.txt
+git clone https://github.com/zebbern/dez-crwl.git
+cd dez-crwl
+```
+## Make Globally Accessible?
+### 🐧 - Linux/macOS - 🐧
+**Step 1: Download or clone repo if u havent done it:**
+```
+git clone https://github.com/zebbern/dez-crwl.git
+```
+**Step 2: Run these commands:**
+```
+chmod +x dezCrawl.py
+mv dezCrawl.py /usr/local/bin/dezCrawl
+dezCrawl -h
+```
+**Now run `dezCrawl -h` anywhere in terminal**
+### 🪟 - Windows - 🪟
+**Step 1: Download or clone repos if u havent done it:**
+```
+git clone https://github.com/zebbern/dez-crwl.git
+```
+**Step 2: Convert to executable:**
+```
+pip install pyinstaller
+pyinstaller --onefile dezCrawl.py
+```
+**Step 3: Move exe to directory in your PATH like:**
+```
+echo %PATH%
+# Or use this path it usually works replace "Your-Username"
+move dist/dezCrawl.exe C:\Users\Your-Username\AppData\Local\Microsoft\WindowsApps\ 
+```
+**Now run `dezCrawl -h` anywhere in terminal**
 
 ## Usage:
 1. Run the script with a domain:
@@ -39,48 +80,11 @@ python3 dezCrawl.py -t example.com -f "(\.json|\.env|\.bak|\.sql)"
 dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\.backup|\.old|\.git|\.svn|\.swp|\.sql|\.db|\.sqlite|\.log|\.txt|\.zip|\.rar|\.tar\.gz|\.7z|\.pdf|\.docx|\.xlsx|\.conf|\.ini|\.yml|\.yaml|\.dump|\.sql\.dump|\.session|\.pem|\.key|\.crt|\.tmp)"
 ```
 
-**Configuration (`config.yaml`):**
+### Configuration:
+ (`config.yaml`):
 - `verbose: Enables detailed logging (true/false)`
 - `output_format: Choose "txt" or "json"`
 - `API keys: Configure URLScan and CertSpotter API keys`
 
-## Installation 
-```
-pip install -r requirements.txt
-git clone https://github.com/zebbern/dez-crwl.git
-cd dez-crwl
-```
-## Make Globally Accessible?
-### 🐧 - Linux/macOS - 🐧
-**Step 1: Download or clone repo if u havent done it:**
-```
-git clone https://github.com/zebbern/dez-crwl.git
-```
-**Step 2: Run these commands:**
-```
-chmod +x dezCrawl.py
-mv dezCrawl.py /usr/local/bin/dezCrawl
-dezCrawl -h
-```
-### 🪟 - Windows - 🪟
-**Step 1: Download or clone repos if u havent done it:**
-```
-git clone https://github.com/zebbern/dez-crwl.git
-```
-**Step 2: Convert to executable:**
-```
-pip install pyinstaller
-pyinstaller --onefile dezCrawl.py
-```
-**Step 3: Move exe to directory in your PATH like:**
-```
-echo %PATH%
-# Or use this path it usually works replace "Your-Username"
-move dist/dezCrawl.exe C:\Users\Your-Username\AppData\Local\Microsoft\WindowsApps\ 
-```
-**Now run**
-```
-dezCrawl -h
-```
 Developer:
 - GitHub: https://github.com/zebbern
