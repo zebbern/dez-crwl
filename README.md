@@ -11,7 +11,8 @@ dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript
 - [Make Globally Accessible](#make-globally-accessible)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Usage](#usage)
+- [Showcase](#showcase)
+- [Common Errors](#common-erros)
 
 Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
@@ -36,7 +37,7 @@ git clone https://github.com/zebbern/dez-crwl.git
 **Step 2: Run these commands:**
 ```
 chmod +x dezCrawl.py
-mv dezCrawl.py /usr/local/bin/dezCrawl
+sudo mv dezCrawl.py /usr/local/bin/dezCrawl
 dezCrawl -h
 ```
 **Now run `dezCrawl -h` anywhere in terminal**
@@ -86,5 +87,15 @@ dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\
 - `output_format: Choose "txt" or "json"`
 - `API keys: Configure URLScan and CertSpotter API keys`
 
+## Showcase
+
+## Common Errors
+```
+ModuleNotFoundError: No module named 'yaml'
+```
+fix by running this same can be done if u get any other missing like this 
+```
+python3 -m pip install --upgrade --force-reinstall pyyaml```
+```
 Developer:
 - GitHub: https://github.com/zebbern
