@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Make Globally Accessible?](#make-globally-accessible)
-  - [Linux/macOS](#Step-2-Run-these-commands)
+  - [Linux/macOS](#Step-2:-Run-these-commands:)
   - [Windows](#windows)
 
 ## Installation 
