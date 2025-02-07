@@ -12,9 +12,9 @@ dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Showcase](#showcase)
-- [Common Errors](#common-erros)
+- [Potential Errors](#potential-errors)
 
-Features:
+## Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
 - Discovers subdomains automatically
 - Extracts JavaScript endpoints and hidden APIs
@@ -88,8 +88,9 @@ dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\
 - `API keys: Configure URLScan and CertSpotter API keys`
 
 ## Showcase
+Coming....
 
-## Common Errors
+## Potential Errors
 ```
 ModuleNotFoundError: No module named 'yaml'
 ```
