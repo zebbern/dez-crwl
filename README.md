@@ -1,18 +1,25 @@
 # dez-crwl
-Dez-Crwl is a website osint history crawler
+## Installation 
 
-## Make dezCrawl.py globally accessible by placing it in a directory that's in your PATH
 
-### Linux/macOS:
+
+
+## Make Globally Accessible?
+### 🐧 - Linux/macOS - 🐧
 ```
 chmod +x dezCrawl.py
 mv dezCrawl.py /usr/local/bin/dezCrawl
 dezCrawl -h
 ```
-### Windows:
+### 🪟 - Windows - 🪟
+Step 1: Convert to executable
 ```
-Move it to a directory in PATH.
-
+pip install pyinstaller
+pyinstaller --onefile dezCrawl.py
+```
+Step 2: Move exe to directory in your PATH like:
+```
+move dist/dezCrawl.exe C:\Users\Your-Username\AppData\Local\Microsoft\WindowsApps\
+```
+Now run
 dezCrawl -h
-```
-**On windows just move it to a directory in PATH.**
