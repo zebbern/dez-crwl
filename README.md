@@ -4,8 +4,6 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Make Globally Accessible](#make-globally-accessible)
-  - [Linux/macOS](#clone-repo)
-  - [Windows](#repos)
 
 ## Installation 
 ```
