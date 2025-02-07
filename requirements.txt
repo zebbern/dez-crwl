@@ -1,0 +1,9 @@
+aiohttp
+argparse
+asyncio
+colorama
+dateutil
+logging
+pyyaml
+pystyle
+requests

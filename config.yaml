@@ -1,0 +1,9 @@
+# config.yaml
+verbose: true
+output_format: "txt"  # Options might be "txt" or "json"; adjust write_output() accordingly.
+# You can specify API keys for external APIs if needed:
+urlscan:
+  apikey: "YOUR_URLSCAN_API_KEY_IF_NEEDED"
+certspotter:
+  apikey: "YOUR_CERTSPOTTER_API_KEY_IF_NEEDED"
+# Additional target-specific configurations can be added here.
