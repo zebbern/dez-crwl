@@ -12,8 +12,8 @@ dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Showcase](#showcase)
-- [Potential Errors](#potential-errors)
-- [Pip Issue Fix](#pip-issue-fix)
+- [Python 3.12+ Pip Fix](#python-312-pip-fix)
+
 
 ## Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
@@ -91,27 +91,23 @@ dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\
 ## Showcase
 Coming....
 
-## Potential Errors
+# Python 3.12+ Pip Fix:
+### Create and Activate a Virtual Environment
+#### For Linux/macOS:
+```
+python3 -m venv venv && source venv/bin/activate
+```
+#### For Windows:
+```
+python -m venv venv && .\venv\Scripts\activate
+```
+#### Any other issue usually can be fixed with:
 ```
 ModuleNotFoundError: No module named 'yaml'
 ```
-fix by running this same can be done if u get any other missing like this 
+**fix by running this same can be done if u get any other missing like this** 
 ```
 python3 -m pip install --upgrade --force-reinstall pyyaml```
 ```
-## Pip Issue Fix
-### Make a virtual env then install via pip!
-#### On Unix/macOS:
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-#### On Windows:
-```bash
-python -m venv venv
-.\venv\Scripts\activate
-```
-
 Developer:
 - GitHub: https://github.com/zebbern
