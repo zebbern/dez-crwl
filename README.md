@@ -13,6 +13,7 @@ dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript
 - [Configuration](#configuration)
 - [Showcase](#showcase)
 - [Potential Errors](#potential-errors)
+- [Pip Issue Fix](#pip-issue-fix)
 
 ## Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
@@ -98,5 +99,19 @@ fix by running this same can be done if u get any other missing like this
 ```
 python3 -m pip install --upgrade --force-reinstall pyyaml```
 ```
+## Pip Issue Fix
+### Make a virtual env then install via pip!
+#### On Unix/macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### On Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+
 Developer:
 - GitHub: https://github.com/zebbern
