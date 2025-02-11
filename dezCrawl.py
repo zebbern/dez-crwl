@@ -36,7 +36,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 clear()
 init(autoreset=True)
-logo = """_____              ____               _ 
+logo = r"""_____              ____               _ 
 |  _ \  ___ ____  / ___|_ ____      _| |
 | | | |/ _ \_  / | |   | '__\ \ /\ / / |
 | |_| |  __// /  | |___| |   \ V  V /| |
@@ -537,7 +537,7 @@ def fetch_urls(domains: List[str], no_subdomains: bool, vt_api_key: str, allowed
 # --- CLI & Main Logic ---
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        usage='dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\.backup|\.old|\.git|\.svn|\.swp|\.sql|\.db|\.sqlite|\.log|\.txt|\.zip|\.rar|\.tar\.gz|\.7z|\.pdf|\.docx|\.xlsx|\.conf|\.ini|\.yml|\.yaml|\.dump|\.sql\.dump|\.session|\.pem|\.key|\.crt|\.tmp)"',
+        usage=r'dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\.backup|\.old|\.git|\.svn|\.swp|\.sql|\.db|\.sqlite|\.log|\.txt|\.zip|\.rar|\.tar\.gz|\.7z|\.pdf|\.docx|\.xlsx|\.conf|\.ini|\.yml|\.yaml|\.dump|\.sql\.dump|\.session|\.pem|\.key|\.crt|\.tmp)"',
     )
     parser.add_argument("-d", action="store_true", help="Include fetch date in output")
     parser.add_argument("-t", metavar="target.com", help="Domain or file with a list of domains")
