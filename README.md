@@ -46,8 +46,10 @@ dezCrawl -h
 **Step 1: Download or clone repos if u havent done it:**
 ```
 git clone https://github.com/zebbern/dez-crwl.git
+cd dez-crawl
+python3 dez-crawl -h
 ```
-**Step 2: Convert to executable:**
+**Step 2: `Optional` Convert to executable:**
 ```
 pip install pyinstaller
 pyinstaller --onefile dezCrawl.py
