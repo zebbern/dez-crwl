@@ -13,6 +13,7 @@ dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript
 - [Configuration](#configuration)
 - [Showcase](#showcase)
 - [Python 3.12+ Pip Fix](#python-312-pip-fix)
+- [ModuleNotFoundError Fix](#modulenotfounderror-fix)
 
 
 ## Features:
@@ -103,7 +104,7 @@ python3 -m venv venv && source venv/bin/activate
 ```
 python -m venv venv && .\venv\Scripts\activate
 ```
-#### Any other issue usually can be fixed with:
+#### ModuleNotFoundError Fix
 ```
 ModuleNotFoundError: No module named 'yaml'
 ```
