@@ -1,20 +1,27 @@
-# dezCrawl - Web Reconnaissance Tool
+<div align="center">
+
+## dezCrawl - Web History OSINT 
+
+<img src="https://github.com/user-attachments/assets/94445e00-a6b1-4d6c-ae9a-7008307316e9" style="width:45%;">
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-dezCrawl is a web reconnaissance tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.
+dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.
 
 ## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Make Globally Accessible](#make-globally-accessible)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Showcase](#showcase)
-- [Python 3.12+ Pip Fix](#python-312-pip-fix)
-- [ModuleNotFoundError Fix](#modulenotfounderror-fix)
+[Features](#features) ≡ [Installation](#installation)
 
+[Make .py Globally Accessible](#make-globally-accessible)  
+
+[Usage](#usage) ≡ [Configuration](#configuration) ≡ [Showcase](#showcase)
+
+[Python 3.12+ Pip Fix](#python-312-pip-fix)
+
+[ModuleNotFoundError Fix](#modulenotfounderror-fix)
+
+</div>
 
 ## Features:
 - Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
