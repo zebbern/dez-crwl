@@ -1,6 +1,6 @@
 <div align="center">
 
-## dezCrawl - Web History OSINT 
+## dezCrawl ≡ History OSINT Crawler
 
 <img src="https://github.com/user-attachments/assets/94445e00-a6b1-4d6c-ae9a-7008307316e9" style="width:45%;">
 
@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.
+**dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**
 
 ## Table of Contents
 [Features](#features) ≡ [Installation](#installation)
