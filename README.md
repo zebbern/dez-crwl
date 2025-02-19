@@ -14,36 +14,36 @@
 
 <h3 align="center">Features</h3>
 <kbd align="left">
-<br>
 
-|- <kbd> Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal</kbd>
+- <kbd> Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal</kbd>
 
-|- <kbd> Discovers subdomains automatically</kbd>
+- <kbd> Discovers subdomains automatically</kbd>
 
-|- <kbd> Extracts JavaScript endpoints and hidden APIs</kbd>
+- <kbd> Extracts JavaScript endpoints and hidden APIs</kbd>
 
-|- <kbd> Detects sensitive information such as API keys and JWT tokens</kbd>
+- <kbd> Detects sensitive information such as API keys and JWT tokens</kbd>
 
-|- <kbd> Supports status code filtering</kbd>
+- <kbd> Supports status code filtering</kbd>
 
-|- <kbd> Generates detailed reports in TXT or JSON format</kbd>
+- <kbd> Generates detailed reports in TXT or JSON format</kbd>
 
 </kbd>
 <br>|
 <br>|
 <br>|
+<br><kbd>┌─(kali㉿kali)</kbd> 
 <br>
 <kbd>
 
 <h3 align="left">
+ 
+<kbd>$ </kbd> [Installation](#installation)
 
-|- [Installation](#installation)
+<kbd>$ </kbd> [Usage](#usage) 
 
-|- [Usage](#usage) 
+<kbd>$ </kbd> [Configuration](#configuration) 
 
-|- [Configuration](#configuration) 
-
-|- [Showcase](#showcase)
+<kbd>$ </kbd> [Showcase](#showcase)
 
 </h3>
 </kbd>
