@@ -9,8 +9,6 @@
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 <h6>dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**</h6>
-
-<div align="center">
  
 <kbd align="left">
 
@@ -56,7 +54,9 @@
 </kbd>
 </div>
 
-## Installation 
+---
+
+### Installation 
 ```
 python3 -m venv venv && source venv/bin/activate
 git clone https://github.com/zebbern/dez-crwl.git
@@ -78,15 +78,11 @@ dezCrawl -h
 pip install pyinstaller
 pyinstaller --onefile dezCrawl.py
 ```
-**Step 3: Move exe to directory in your PATH like:**
+**Step 2: Move exe to directory in your PATH like:**
 ```
 move dist/dezCrawl.exe C:\Users\%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\
+dezCrawl -h
 ```
-### You can find "Your" path with this command in terminal:
-`echo %PATH%`
-
-**Now run `dezCrawl -h` anywhere in terminal**
-
 
 ## Usage:
 1. Run the script with a domain:
