@@ -9,10 +9,12 @@
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 <h6>dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**</h6>
- 
-<kbd align="left">
 
-<h1>Features</h1>
+---
+
+<h3 align="center">Features</h3>
+<kbd align="left">
+<br>
 
 |- <kbd> Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal</kbd>
 
@@ -27,14 +29,13 @@
 |- <kbd> Generates detailed reports in TXT or JSON format</kbd>
 
 </kbd>
-
+<br>|
+<br>|
+<br>|
 <br>
-
 <kbd>
 
 <h3 align="left">
-
-[Click To Get Where You Want](#) 
 
 |- [Installation](#installation)
 
