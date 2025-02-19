@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-<h6>dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**</h6>
+<h6>dezcrwl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**</h6>
 
 ---
 
@@ -57,34 +57,34 @@
 ### 🐧 - Linux/macOS - 🐧
 **Step 1: Run these commands:**
 ```
-git clone https://github.com/zebbern/dez-crwl.git
+git clone https://github.com/zebbern/dezcrwl.git
 chmod +x linuxinstall.sh
 ./linuxinstall.sh
 ```
-**Now run `dezCrawl -h` anywhere in terminal**
+**Now run `dezcrwl -h` anywhere in terminal**
 ### 🪟 - Windows - 🪟
 **Step 1: Convert to executable:**
 ```
-git clone https://github.com/zebbern/dez-crwl.git
+git clone https://github.com/zebbern/dezcrwl.git
 windowsinstall.sh
 ```
 
 ## Usage:
 1. Run the script with a domain:
 ```
-python3 dezCrawl.py -t example.com -cw -js -sum -o output.txt
+python3 dezcrwl.py -t example.com -cw -js -sum -o output.txt
 ```
 2. Extract JavaScript endpoints:
 ```
-python3 dezCrawl.py -t example.com -js
+python3 dezcrwl.py -t example.com -js
 ```
 3. Fetch results from Wayback and VirusTotal:
  ```
-python3 dezCrawl.py -t example.com -cw -vt YOUR_VIRUSTOTAL_API_KEY
+python3 dezcrwl.py -t example.com -cw -vt YOUR_VIRUSTOTAL_API_KEY
 ```
 4. Filter specific file types:
 ```
-python3 dezCrawl.py -t example.com -f "(\.json|\.env|\.bak|\.sql)"
+python3 dezcrwl.py -t example.com -f "(\.json|\.env|\.bak|\.sql)"
 ```
 6. How its supposed to run & with what:
 ```
