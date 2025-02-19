@@ -1,6 +1,6 @@
 <div align="center">
 
-## dezCrawl ≡ History OSINT Crawler
+## Domain History Crawler
 
 <img src="https://github.com/user-attachments/assets/94445e00-a6b1-4d6c-ae9a-7008307316e9" style="width:45%;">
 
@@ -8,42 +8,64 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-**dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**
+<h6>dezCrawl is a `Web History Osint` tool for gathering URLs, subdomains, JavaScript endpoints, and sensitive information using various OSINT sources like Wayback Machine, Common Crawl, and VirusTotal.**</h6>
 
-## Table of Contents
-[Features](#features) ≡ [Installation](#installation)
+<div align="center">
+ 
+<kbd align="left">
 
-[Make .py Globally Accessible](#make-globally-accessible)  
+<h1>Features</h1>
 
-[Usage](#usage) ≡ [Configuration](#configuration) ≡ [Showcase](#showcase)
+|- <kbd> Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal</kbd>
 
-[Python 3.12+ Pip Fix](#python-312-pip-fix)
+|- <kbd> Discovers subdomains automatically</kbd>
 
-[ModuleNotFoundError Fix](#modulenotfounderror-fix)
+|- <kbd> Extracts JavaScript endpoints and hidden APIs</kbd>
 
+|- <kbd> Detects sensitive information such as API keys and JWT tokens</kbd>
+
+|- <kbd> Supports status code filtering</kbd>
+
+|- <kbd> Generates detailed reports in TXT or JSON format</kbd>
+
+</kbd>
+
+<br>
+
+<kbd>
+
+<h3 align="left">
+
+[Click To Get Where You Want](#) 
+
+|- [Installation](#installation)
+
+|- [Make .py Globally Accessible](#make-globally-accessible)  
+
+|- [Usage](#usage) 
+
+|- [Configuration](#configuration) 
+
+|- [Showcase](#showcase)
+
+|- [Python 3.12+ Pip Fix](#python-312-pip-fix)
+
+|- [ModuleNotFoundError Fix](#modulenotfounderror-fix)
+
+</h3>
+</kbd>
 </div>
-
-## Features:
-- Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
-- Discovers subdomains automatically
-- Extracts JavaScript endpoints and hidden APIs
-- Detects sensitive information such as API keys and JWT tokens
-- Supports status code filtering
-- Generates detailed reports in TXT or JSON format
 
 ## Installation 
 ```
-pip install -r requirements.txt
+python3 -m venv venv && source venv/bin/activate
 git clone https://github.com/zebbern/dez-crwl.git
-cd dez-crwl
+pip3 install -r requirements.txt
+cd ~/dez-crwl
 ```
 ## Make Globally Accessible?
 ### 🐧 - Linux/macOS - 🐧
-**Step 1: Download or clone repo if u havent done it:**
-```
-git clone https://github.com/zebbern/dez-crwl.git
-```
-**Step 2: Run these commands:**
+**Step 1: Run these commands:**
 ```
 chmod +x dezCrawl.py
 sudo mv dezCrawl.py /usr/local/bin/dezCrawl
@@ -51,24 +73,20 @@ dezCrawl -h
 ```
 **Now run `dezCrawl -h` anywhere in terminal**
 ### 🪟 - Windows - 🪟
-**Step 1: Download or clone repos if u havent done it:**
-```
-git clone https://github.com/zebbern/dez-crwl.git
-cd dez-crawl
-python3 dez-crawl -h
-```
-**Step 2: `Optional` Convert to executable:**
+**Step 1: Convert to executable:**
 ```
 pip install pyinstaller
 pyinstaller --onefile dezCrawl.py
 ```
 **Step 3: Move exe to directory in your PATH like:**
 ```
-echo %PATH%
-# Or use this path it usually works replace "Your-Username"
-move dist/dezCrawl.exe C:\Users\Your-Username\AppData\Local\Microsoft\WindowsApps\ 
+move dist/dezCrawl.exe C:\Users\%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\
 ```
+### You can find "Your" path with this command in terminal:
+`echo %PATH%`
+
 **Now run `dezCrawl -h` anywhere in terminal**
+
 
 ## Usage:
 1. Run the script with a domain:
