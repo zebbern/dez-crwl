@@ -37,7 +37,9 @@
 
 <h3 align="left">
  
-<kbd>$ </kbd> [Installation](#installation)
+<kbd>$ </kbd> [Installation For Linux](#linux)
+
+<kbd>$ </kbd> [Installation For Windows](#windows)
 
 <kbd>$ </kbd> [Usage](#usage) 
 
@@ -51,21 +53,45 @@
 
 ---
 
-### Installation 
-### 🐧 - Linux/macOS - 🐧
-**Step 1: Run these commands:**
-```
-git clone https://github.com/zebbern/dezcrwl.git
-chmod +x linuxinstall.sh
-./linuxinstall.sh
-```
-**Now run `dezcrwl -h` anywhere in terminal**
-### 🪟 - Windows - 🪟
-**Step 1: Convert to executable:**
-```
-git clone https://github.com/zebbern/dezcrwl.git
-windowsinstall.sh
-```
+<div align="center">
+
+<kbd>
+ 
+<h3 align="left">
+
+<h1 id="linux">🐧 - Linux/macOS - 🐧</h1>
+<h3 align="center">
+ 
+### Run these commands:
+
+<kbd>git clone https://github.com/zebbern/dezcrwl.git<br>
+<br>chmod +x linuxinstall.sh<br>
+<br>./linuxinstall.sh</kbd>
+
+</h3>
+
+### Now run `dezcrwl -h` anywhere in terminal
+
+</kbd>
+
+<kbd>
+ 
+<h1 id="windows">🪟 - Windows - 🪟</h1>
+
+<h3 align="center">
+
+### Run these commands:
+<kbd>git clone https://github.com/zebbern/dezcrwl.git<br>
+<br>cd dezcrawl<br>
+<br>windowsinstall.sh</kbd>
+
+</h3>
+
+### Now run `dezcrwl -h` anywhere in terminal
+
+</kbd>
+
+</div>
 
 ## Usage:
 1. Run the script with a domain:
