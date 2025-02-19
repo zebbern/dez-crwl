@@ -47,10 +47,6 @@
 
 |- [Showcase](#showcase)
 
-|- [Python 3.12+ Pip Fix](#python-312-pip-fix)
-
-|- [ModuleNotFoundError Fix](#modulenotfounderror-fix)
-
 </h3>
 </kbd>
 </div>
@@ -58,31 +54,19 @@
 ---
 
 ### Installation 
-```
-python3 -m venv venv && source venv/bin/activate
-git clone https://github.com/zebbern/dez-crwl.git
-pip3 install -r requirements.txt
-cd ~/dez-crwl
-```
-## Make Globally Accessible?
 ### 🐧 - Linux/macOS - 🐧
 **Step 1: Run these commands:**
 ```
-chmod +x dezCrawl.py
-sudo mv dezCrawl.py /usr/local/bin/dezCrawl
-dezCrawl -h
+git clone https://github.com/zebbern/dez-crwl.git
+chmod +x linuxinstall.sh
+./linuxinstall.sh
 ```
 **Now run `dezCrawl -h` anywhere in terminal**
 ### 🪟 - Windows - 🪟
 **Step 1: Convert to executable:**
 ```
-pip install pyinstaller
-pyinstaller --onefile dezCrawl.py
-```
-**Step 2: Move exe to directory in your PATH like:**
-```
-move dist/dezCrawl.exe C:\Users\%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\
-dezCrawl -h
+git clone https://github.com/zebbern/dez-crwl.git
+windowsinstall.sh
 ```
 
 ## Usage:
@@ -116,23 +100,5 @@ dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\
 ## Showcase
 Coming....
 
-# Python 3.12+ Pip Fix:
-### Create and Activate a Virtual Environment
-#### For Linux/macOS:
-```
-python3 -m venv venv && source venv/bin/activate
-```
-#### For Windows:
-```
-python -m venv venv && .\venv\Scripts\activate
-```
-#### ModuleNotFoundError Fix
-```
-ModuleNotFoundError: No module named 'yaml'
-```
-**fix by running this same can be done if u get any other missing like this** 
-```
-python3 -m pip install --upgrade --force-reinstall pyyaml```
-```
 Developer:
 - GitHub: https://github.com/zebbern
