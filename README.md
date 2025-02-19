@@ -31,7 +31,7 @@
 <br>|
 <br>|
 <br>|
-<br><kbd>┌─(kali㉿kali)</kbd> 
+<br><kbd>┌─(Table㉿Contents)</kbd> 
 <br>
 <kbd>
 
