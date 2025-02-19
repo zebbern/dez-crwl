@@ -31,15 +31,13 @@
 </kbd>
 <br>|
 <br>|
-<br>|
+<br>| ----------------- | ----------------- |
 <br>
 <kbd>
 
 <h3 align="left">
 
 |- [Installation](#installation)
-
-|- [Make .py Globally Accessible](#make-globally-accessible)  
 
 |- [Usage](#usage) 
 
