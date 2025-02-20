@@ -1,8 +1,8 @@
 <div align="center">
 
-## Domain History Crawler
-
 <img src="https://github.com/user-attachments/assets/94445e00-a6b1-4d6c-ae9a-7008307316e9" style="width:45%;">
+
+<kbd>Domain History Crawler</kbd>
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
