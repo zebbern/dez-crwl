@@ -12,25 +12,64 @@
 
 ---
 
-<h3 align="center">Features</h3>
-<kbd align="left">
+</div>
 
-- <kbd> Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal</kbd>
+<div align="center">
 
-- <kbd> Discovers subdomains automatically</kbd>
+<h3 align="center">Features ⁀➴ </h3>
 
-- <kbd> Extracts JavaScript endpoints and hidden APIs</kbd>
+<kbd>
+<h3>
+ 
+- Fetches URLs from Common Crawl, Wayback Machine, and VirusTotal
 
-- <kbd> Detects sensitive information such as API keys and JWT tokens</kbd>
+</h3>
+</kbd>
+<br>
+<kbd>
+<h3>
+ 
+- Detects sensitive information such as API keys and JWT tokens
 
-- <kbd> Supports status code filtering</kbd>
+</h3>
+</kbd>
+<br>
+<kbd>
+<h3>
+ 
+- Generates detailed reports in TXT or JSON format
 
-- <kbd> Generates detailed reports in TXT or JSON format</kbd>
+</h3>
+</kbd>
+<br>
+<kbd>
+<h3>
+ 
+- Extracts JavaScript endpoints and hidden APIs
+
+</h3>
+</kbd>
+<br>
+<kbd>
+<h3>
+ 
+- Discovers subdomains automatically
+
+</h3>
+</kbd>
+<br>
+<kbd>
+<h3>
+ 
+- Supports status code filtering
+
+</h3>
+</kbd>
 
 </kbd>
 <br>│
 <br>│
-<br>│<br>
+<br>🢃<br>
 <kbd>
 
 <h3 align="left">
@@ -49,75 +88,90 @@
 </kbd>
 </div>
 
-<h1 align="center">˗ˏˋ🖳ˎˊ˗</h1>
+</div>
+
+<h1 align="center">🢇⁀🐧 ˗˗˗ˏˋ🖳ˎˊ˗˗˗ 🪟⁀🡾</h1>
   
 <div align="center">
 
 <kbd>
- 
-<h3 align="left">
 
-<h1 id="linux">🐧 - Linux/macOS - 🐧</h1>
-<h3 align="center">
- 
+<h1 id="linux">Linux/macOS</h1>
+
 ### Run these commands:
+<kbd>
+<h3>
 
-<kbd>git clone https://github.com/zebbern/dezcrwl.git<br>
-<br>chmod +x linuxinstall.sh<br>
-<br>./linuxinstall.sh</kbd>
-
+```
+git clone https://github.com/zebbern/dezcrwl.git
+cd dezcrawl
+chmod +x linuxinstall.sh
+./linuxinstall.sh
+```
 </h3>
-
-### Now run `dezcrwl -h` anywhere in terminal
+</kbd>
 
 </kbd>
 
 <kbd>
  
-<h1 id="windows">🪟 - Windows - 🪟</h1>
-
-<h3 align="center">
+<h1 id="windows">Windows</h1>
 
 ### Run these commands:
-<kbd>git clone https://github.com/zebbern/dezcrwl.git<br>
-<br>cd dezcrawl<br>
-<br>windowsinstall.sh</kbd>
+<kbd>
+<h3>
 
+```
+git clone https://github.com/zebbern/dezcrwl.git
+cd dezcrawl
+windowsinstall.sh
+
+```
 </h3>
-
-### Now run `dezcrwl -h` anywhere in terminal
+</kbd>
 
 </kbd>
 
+### Now run `dezcrwl -h` anywhere in terminal
+
 </div>
 
+<br>
+
 ## Usage:
-1. Run the script with a domain:
+### Run the script with a domain:
 ```
 python3 dezcrwl.py -t example.com -cw -js -sum -o output.txt
 ```
-2. Extract JavaScript endpoints:
+### Extract JavaScript endpoints:
 ```
 python3 dezcrwl.py -t example.com -js
 ```
-3. Fetch results from Wayback and VirusTotal:
+### Fetch results from Wayback and VirusTotal:
  ```
 python3 dezcrwl.py -t example.com -cw -vt YOUR_VIRUSTOTAL_API_KEY
 ```
-4. Filter specific file types:
+### Filter specific file types:
 ```
 python3 dezcrwl.py -t example.com -f "(\.json|\.env|\.bak|\.sql)"
 ```
-6. How its supposed to run & with what:
+### How its supposed to run & with what:
 ```
 dezCrwl target.com -dir -cw -js -ws -sum -o output.txt -f "(\.json|\.env|\.bak|\.backup|\.old|\.git|\.svn|\.swp|\.sql|\.db|\.sqlite|\.log|\.txt|\.zip|\.rar|\.tar\.gz|\.7z|\.pdf|\.docx|\.xlsx|\.conf|\.ini|\.yml|\.yaml|\.dump|\.sql\.dump|\.session|\.pem|\.key|\.crt|\.tmp)"
 ```
 
-### Configuration:
- (`config.yaml`):
-- `verbose: Enables detailed logging (true/false)`
-- `output_format: Choose "txt" or "json"`
-- `API keys: Configure URLScan and CertSpotter API keys`
+## Configuration:
+
+<kbd>
+
+## `config.yaml`:
+- <h3>verbose: Enables detailed logging (true/false)</h3>
+ 
+- <h3>output_format: Choose "txt" or "json"</h3>
+ 
+- <h3>API keys: Configure URLScan and CertSpotter API keys</h3>
+
+</kbd>
 
 ## Showcase
 Coming....
