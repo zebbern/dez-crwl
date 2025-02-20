@@ -28,11 +28,9 @@
 - <kbd> Generates detailed reports in TXT or JSON format</kbd>
 
 </kbd>
-<br>|
-<br>|
-<br>|
-<br><kbd>┌─(Table㉿Contents)</kbd> 
-<br>
+<br>│
+<br>│
+<br>│<br>
 <kbd>
 
 <h3 align="left">
@@ -51,8 +49,8 @@
 </kbd>
 </div>
 
----
-
+<h1 align="center">˗ˏˋ🖳ˎˊ˗</h1>
+  
 <div align="center">
 
 <kbd>
